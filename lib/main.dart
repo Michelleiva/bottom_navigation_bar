@@ -26,7 +26,9 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    
+    Perfil(),
+    Explorar(),
+    Favoritos(),
   ];
 
   void _onItemTapped(int index) {
